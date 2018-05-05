@@ -8,8 +8,8 @@ ReactDOMRe.renderToElementWithId(
     ...(
          (~currentRoute) =>
            switch (currentRoute) {
-           | NotesList => <App.Top message="Lambda Notes List" />
-           | NoteCreate => <App.Top message="Lambda Notes Create" />
+           | NotesList => <NotesList message="Lambda Notes List" />
+           | NoteCreate => <NoteCreate message="Lambda Notes Create" />
            | NoteEdit(id) => <App.Top message=("Lambda Notes Edit" ++ id) />
            | NoteDelete(id) =>
              <App.Top message=("Lambda Notes Delete" ++ id) />
