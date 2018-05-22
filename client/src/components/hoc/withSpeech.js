@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import propTypes from 'prop-types'
 
 const head = arr => arr[0]
 
 // withSpeech :: Required Props: startListening, stopListening, addToRegister (all functions)
 const withSpeech = Comp => {
-  return class WithSpeech extends Component {
+  class WithSpeech extends Component {
     componentDidMount = () => {
       window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
       this.recognition = new window.SpeechRecognition()
@@ -44,6 +45,15 @@ const withSpeech = Comp => {
       />
     }
   }
+
+  // withSpeech :: Required Props: startListening, stopListening, addToRegister (all functions)
+  WithSpeech.propTypes = {
+    startListening: propTypes.func.isRequired,
+    stopListening: propTypes.func.isRequired,
+    addToRegister: propTypes.func,
+  }
+
+  return WithSpeech
 }
 
 export default withSpeech
