@@ -2,6 +2,10 @@ My final frontend project for LambdaSchool, a 1-year coding bootcamp that I comp
 
 The client includes [react-speak](https://www.npmjs.com/package/react-speak), an npm package I created and open-sourced in May 2018. At its highest point it was getting over 100 downloads/week.
 
+# Hosting
+
+Frontend: https://react-speak.herokuapp.com/
+Backend: https://react-speak-server.herokuapp.com
 
 # Front End Project Week
 This week you will be building a minimum viable product (MVP) for a note taking app called "Lambda Notes."
