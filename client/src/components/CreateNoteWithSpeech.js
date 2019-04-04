@@ -4,8 +4,8 @@ import { connect } from 'react-redux'
 
 import { startListening, stopListening, addToRegister, clearRegister } from '../actions/speech'
 import Mic from './Mic'
-import withSpeech from 'react-speak'
-//import withSpeech from './hoc/withSpeech'
+//import withSpeech from 'react-speak'
+import withSpeech from './hoc/withSpeech'
 import './styles/Speak.css'
 
 const mapStateToProps = ({

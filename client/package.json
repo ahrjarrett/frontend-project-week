@@ -2,6 +2,10 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.0.0",
+    "node": "10.15.2"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "history": "^4.7.2",
@@ -14,7 +18,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.4",
-    "react-speak": "1.0.8",
+    "react-speak": "2.0.1",
     "redux": "^4.0.0",
     "redux-form": "^7.3.0",
     "redux-logger": "^3.0.6",

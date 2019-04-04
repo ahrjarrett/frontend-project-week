@@ -5705,9 +5705,10 @@ react-scripts@1.1.4:
   optionalDependencies:
     fsevents "^1.1.3"
 
-react-speak@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/react-speak/-/react-speak-1.0.8.tgz#d3c3fac334f13c13757d2a4baf8259e05ced25c7"
+react-speak@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-speak/-/react-speak-2.0.1.tgz#c698efd93fac4f5ca79941747caae094de037458"
+  integrity sha512-DN7zl1kgEsaLK7BoM5XEO2xiD1fZqxwrhd5s/U8k5lCDkdjHrx4klNl/KNMdqpx371HxA2+EyfpNsI8zdWTloQ==
   dependencies:
     prop-types "^15.6.1"
     react "^16.3.2"
