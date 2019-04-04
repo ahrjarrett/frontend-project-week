@@ -8,4 +8,6 @@ TODO:
 
 Frontend: https://react-speak.herokuapp.com/
 
+Command for existing app: `heroku git:remote -a react-speak`
+
 
